@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family-Roboto+slab:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family-Raleway:300,300i,400,400i,500,500i,600,600i");
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #d2dbdd;
+}
+.heading_style{
+    padding: 30px 0;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #868686;
+    background-color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+.cards{
+    width: 100%;
+    height: auto;
+    margin-left: 40px;
+}
+
+.card{
+    margin: 6%;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+    background-color: #fff;
+    width: 21.25;
+    border-radius: 12px;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+    float: left;
+}
+img{
+    width: 250px;
+    height: 250px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.card__info{
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+}  
+.card__category{
+    background-color: #fff;
+    padding: 10px;
+}
+.card__title{
+    background-color: #fff;
+    padding: 10px;
+}
